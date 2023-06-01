@@ -1,0 +1,63 @@
+.timercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b3fcf9;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.time {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+input[type='number'] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.start {
+    background-color: #5ef174;
+}
+
+.stop {
+    background-color: #fd5b5b;
+}
+
+.reset {
+    background-color: #e89cf1;
+}
